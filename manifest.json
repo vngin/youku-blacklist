@@ -13,7 +13,8 @@
     
     "content_scripts": [{
         "matches": ["http://*.youku.com/*", "http://*.soku.com/*"],
-        "js": ["my.js", "cross.js", "content.js"]
+        "js": ["my.js", "cross.js", "content.js"],
+        "run_at": "document_end"
     }],
     
     "options_page": "options.html",
