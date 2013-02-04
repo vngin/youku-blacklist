@@ -82,6 +82,7 @@ Video.prototype = {
   // bing clear-all button to clear blacklist
   document.getElementById('clear-all').addEventListener('click', function (){
     UTIL.local.set('blacklist', '');
+    document.getElementById('videos').innerHTML = '';
     
   });
   
