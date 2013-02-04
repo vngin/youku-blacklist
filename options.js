@@ -22,20 +22,7 @@ function Video(o) {
 }
 
 Video.prototype = {
-  /*
-  <div class="video">
-    <div class="thumb">
-      <img alt="" src="http://g2.ykimg.com/0100641F464DC97644FCEF05323006446BEC2C-711B-BBDA-7241-642BA9516392" />
-    </div>
-    <div class="title">
-      <a href="http://v.youku.com/v_show/id_XMjY1ODgwOTI0.html"></a>
-    </div>
-    <div class="blocked-at">
-      <span></span>
-      <span class="date">1990-01-01 12:34:56</span>
-    </div>
-  </div>
-  */
+
   build_node: function () {
     
     var thumb_elem = $c('div');
