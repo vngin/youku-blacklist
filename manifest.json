@@ -1,11 +1,11 @@
 {
-    "name": "Youku Helper",
+    "name": "Youku Blacklist",
     
     "version": "0.0.1",
     
     "manifest_version": 2,
     
-    "description": "Add features to youku.com",
+    "description": "Blacklist videos when you browse Youku.",
     
     "background": {
         "scripts": ["my.js", "background.js"]
