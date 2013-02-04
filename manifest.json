@@ -1,0 +1,29 @@
+{
+    "name": "Youku Helper",
+    
+    "version": "0.0.1",
+    
+    "manifest_version": 2,
+    
+    "description": "Add features to youku.com",
+    
+    "background": {
+        "scripts": ["my.js", "background.js"]
+    },
+    
+    "content_scripts": [{
+        "matches": ["http://*.youku.com/*", "http://*.soku.com/*"],
+        "js": ["my.js", "cross.js", "content.js"]
+    }],
+    
+    "options_page": "options.html",
+    
+    "permissions": [
+        
+        "http://*.youku.com/*",
+        
+        "contextMenus",
+        
+        "tabs"
+    ]
+}
